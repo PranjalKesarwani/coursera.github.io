@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap');
+
+*{
+    font-family: 'Raleway', sans-serif;
+}
+
+#pageHeading{
+  margin: 35px 0;
+  font-weight: 700;
+}
+
+.box{
+    background-color: rgb(187, 185, 185);
+    margin: 20px;
+    padding: 30px;
+}
+.boxHeading{
+    font-weight: 700;
+}
+#paraBox{
+    font-weight: 600;
+}
+#dropDown{
+    display: none;
+}
+.dropdown {
+    position: static ;
+}
+  
+.dropdown-menu {
+    box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .15);
+    margin-top: 0px ;
+    width: 100% ;
+    display: none;
+}
+
+@media(max-width: 770px){
+    .box {
+        
+        margin: 20px 0;
+        width: 100%;
+       
+    }
+    #dropDown{
+        display: none;
+    }
+}
+@media(max-width: 577px){
+    .row {
+        
+        margin: 0px 10px;
+       
+    }
+    #dropDown{
+        display: block;
+    }
+    .dropdown {
+        position: static ;
+    }
+      
+    .dropdown-menu {
+        box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .15);
+        margin-top: 0px ;
+        width: 100% ;
+        
+        right: 0;
+        background-color: rgb(211, 207, 207);
+        border: 2px solid black;
+    }
+}
